@@ -1,0 +1,14 @@
+nikita-lab-microservices-eureka/     <- корневая папка (родитель)
+│
+├── pom.xml                          <- главный pom, packaging: pom
+│
+├── eureka-server/                  <- модуль #1
+│   └── pom.xml                     <- отдельный pom для eureka
+│
+├── user-service/                   <- модуль #2 (добавим позже)
+│   └── pom.xml
+│
+├── frontend/                       <- модуль #3 (nginx + html)
+│   └── Dockerfile
+│
+└── docker-compose.yml              <- общий файл для запуска всех

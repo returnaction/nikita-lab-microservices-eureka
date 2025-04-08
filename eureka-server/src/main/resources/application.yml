@@ -7,5 +7,7 @@ spring:
 
 eureka:
   client:
+#false — значит не регистрировать себя в Eureka, потому что он сам Eureka-сервер, а не клиент
     register-with-eureka: false
+#false — значит не запрашивать список других сервисов, потому что он не клиент, а сам реестр
     fetch-registry: false

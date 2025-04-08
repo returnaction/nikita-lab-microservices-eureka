@@ -11,6 +11,7 @@
     <modules>
         <!-- сюда добавим eureka-server -->
         <module>eureka-server</module>
+        <module>user-service</module>
     </modules>
 
     <properties>

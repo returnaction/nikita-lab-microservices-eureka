@@ -12,3 +12,12 @@ nikita-lab-microservices-eureka/     <- корневая папка (родит�
 │   └── Dockerfile
 │
 └── docker-compose.yml              <- общий файл для запуска всех
+
+
+
+[Frontend] → [API Gateway] → [user-service]
+                             → [order-service]
+                             → [product-service]
+
+                         ↑
+                 [Eureka Server]

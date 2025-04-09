@@ -12,6 +12,7 @@
         <!-- сюда добавим eureka-server -->
         <module>eureka-server</module>
         <module>user-service</module>
+        <module>api-gateway</module>
     </modules>
 
     <properties>

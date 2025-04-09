@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e709a00f-a39f-4fc6-85c1-0a10d4d8ccf2" name="Changes" comment="добавил настройки ля eureka">
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/nikita/lab/userservice/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/nikita/lab/userservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/nikita/lab/userservice/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/nikita/lab/userservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/nikita/lab/userservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/nikita/lab/userservice/service/UserServiceImpl.java" afterDir="false" />
+    <list default="true" id="e709a00f-a39f-4fc6-85c1-0a10d4d8ccf2" name="Changes" comment="добавили backend">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +36,10 @@
     &quot;accountId&quot;: &quot;c7b134dc-d36b-46ca-92cb-d57924bff19c&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -60,6 +58,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.UserServiceApplication.executor": "Run",
     "git-widget-placeholder": "feature/user-service",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -75,6 +74,13 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.nikita.lab.userservice.service" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EurekaServerApplication">
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -98,6 +104,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.UserServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.EurekaServerApplication" />
@@ -138,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744156072752</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="добавили backend">
+      <option name="closed" value="true" />
+      <created>1744157357793</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744157357793</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[feature/eureka-server] Подключил eureka-server" />
     <MESSAGE value="добавил настройки ля eureka" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил настройки ля eureka" />
+    <MESSAGE value="добавили backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавили backend" />
   </component>
 </project>
